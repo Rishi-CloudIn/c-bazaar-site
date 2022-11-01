@@ -590,7 +590,7 @@
 
 	.footer-btn {
 		margin: 20px auto;
-		width: 80%;
+		width: 30%;
 		border: none;
 		outline: none;
 		font-size: 9px;
@@ -633,9 +633,11 @@
 }
 
 .profile-icon-div {
-	width: 30px;
+	width: auto;
+	height: auto;
+	max-width: 30px;
 	margin: 0px 10px;
-	height: 30px;
+	max-height: 30px;
 	border-radius: 50%;
 	background-color: white;
 	display: flex;
@@ -760,9 +762,11 @@
 	}
 
 	.profile-icon-div {
-		width: 30px;
+		width: auto;
+		height: auto;
+		max-width: 30px;
 		margin: 0px 5px;
-		height: 30px;
+		max-height: 30px;
 		border-radius: 50%;
 		background-color: white;
 		display: flex;
