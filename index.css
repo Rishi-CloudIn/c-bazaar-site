@@ -1,5 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,800&display=swap');
 
+body {
+	-ms-overflow-style: none;
+	/* for Internet Explorer, Edge */
+	scrollbar-width: none;
+	/* for Firefox */
+	overflow-y: scroll !important;
+	overflow-x: hidden !important;
+}
+
+body::-webkit-scrollbar {
+	display: none;
+	/* for Chrome, Safari, and Opera */
+}
+
 :root {
 	--dark-one2: rgb(114, 114, 114);
 	--dark-one: #333;
